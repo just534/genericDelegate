@@ -13,8 +13,17 @@ namespace Lambda_and_Delegate
             //LambdaDemo ld = new LambdaDemo();
             //ld.Test();
             //Console.Read();
-            GenericDelegate dg = new GenericDelegate();
-            dg.Test();
+            //    GenericDelegate dg = new GenericDelegate();
+            //    dg.Test();
+            //    Console.Read();
+            //FuncDelegate fd = new FuncDelegate();
+            //fd.Test();
+            //Console.Read();
+            //SuperFuncDemo sfd = new SuperFuncDemo();
+            //sfd.Test();
+            //Console.Read();
+            ActionDelegate ad = new ActionDelegate();
+            ad.Test();
             Console.Read();
         }
     }

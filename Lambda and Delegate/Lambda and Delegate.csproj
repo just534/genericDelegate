@@ -45,12 +45,17 @@
   <ItemGroup>
     <Compile Include="1.委托，匿名方法和Lambda\LambdaDemo.cs" />
     <Compile Include="2.委托和泛型\GenericDelegate.cs" />
+    <Compile Include="ActionDelegate.cs" />
+    <Compile Include="Func\FuncDelegate.cs" />
+    <Compile Include="Func\Func委托的高级应用.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Action\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
